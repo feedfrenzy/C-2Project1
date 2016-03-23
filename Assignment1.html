@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <title>Student Feedback Form</title>
+
+    <style type="text/css">
+        .auto-style1 {
+            height: 109px;
+        }
+    </style>
+
+</head>
+<body>
+    <h3>Student Feedback Form </h3>
+
+    <p>Please enter below</p>
+
+
+    <p>-----------------------------------------------------------------------------------------------------------------------</p>
+
+
+    <form method ="post"  action="Assignment1.aspx" id="AssignmentInfoRequest">
+
+    <table>
+        <tr>
+            <td>
+                Student Name:
+            </td>
+            <td>
+                <input id="txtName" name="txtName" type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Student ID:
+            </td>
+            <td>
+                <input id="txtStudentID" name="txtStudentID" type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Select course:
+            </td>
+            <td>
+                <select id ="course" name ="txtCourse">
+                    <option value ="Blank"></option>
+                    <option value ="Math">Math</option>
+                    <option value ="BIO">Biology</option>
+                    <option value ="CHEM">Chemistry</option>
+                    <option value ="IST">Information Technology</option>
+                    <option value ="CS">Computer Science</option>
+                    </select>
+            </td>
+        </tr>
+
+         <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                #1: The professor explains important concepts/ideas in ways that I can understand
+            </td>
+            <td>
+                <input name ="optlevel1" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel1" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel1" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel1" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel1" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                #2: The professor stimulates my interest in the subject
+            </td>
+            <td>
+                <input name ="optlevel2" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel2" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel2" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel2" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel2" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                #3: The professor demostrates enthusiam in teaching the unit
+            </td>
+            <td>
+                <input name ="optlevel3" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel3" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel3" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel3" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel3" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                #4: Appropriate teaching techniques are used by the teacher to enhance my learning
+            </td>
+            <td>
+                <input name ="optlevel4" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel4" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel4" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel4" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel4" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                #5: The professor is helpful if encounter difficulities with the lecture/unit
+            </td>
+            <td>
+                <input name ="optlevel5" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel5" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel5" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel5" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel5" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+         <tr>
+            <td>
+                #6: The professor is available for consultation (eg. email, online, face-to-face or telephone)
+            </td>
+            <td>
+                <input name ="optlevel6" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel6" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel6" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel6" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel6" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                #7: I receive feedback in time to help me improve
+            </td>
+            <td>
+                <input name ="optlevel7" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel7" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel7" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel7" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel7" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+         <tr>
+            <td>
+                #8: It covered the entire chapter effectively
+            </td>
+            <td>
+                <input name ="optlevel8" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel8" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel8" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel8" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel8" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+         <tr>
+            <td>
+                #9: Time allotted for study was enough
+            </td>
+            <td>
+                <input name ="optlevel9" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel9" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel9" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel9" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel9" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                #10: Time allotted for test was enough
+            </td>
+            <td>
+                <input name ="optlevel10" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel10" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel10" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel10" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel10" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="auto-style1">
+                #11: Develops the ability to think
+            </td>
+            <td class="auto-style1">
+                <input name ="optlevel11" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel11" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel11" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel11" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel11" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                #12: It is a good experience
+            </td>
+            <td>
+                <input name ="optlevel12" type ="radio" value="StronglyAgree" />Strongly Agree<br />
+                <input name ="optlevel12" type ="radio" value="Agree" />Agree<br />
+                <input name ="optlevel12" type ="radio" value="Neutral" />Neutral<br />
+                <input name ="optlevel12" type ="radio" value="Disagree" />Disagree<br />
+                <input name ="optlevel12" type ="radio" value="StronglyDisagree" />Strongly Disagree<br />
+            </td>
+        </tr>
+
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+
+
+        <tr>
+            <td></td>
+            <td>
+                <input name ="btnSubmit" type ="submit" value="Submit Form"/>
+            </td>
+        </tr>
+
+
+    </table>
+        </form>
+
+</body>
+</html>

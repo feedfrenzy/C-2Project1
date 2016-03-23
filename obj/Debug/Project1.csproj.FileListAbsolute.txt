@@ -1,0 +1,10 @@
+G:\CIS3342\CIS3342Solution\Project\bin\Project.dll
+G:\CIS3342\CIS3342Solution\Project\bin\Project.pdb
+G:\CIS3342\CIS3342Solution\Project\obj\Debug\Project1.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution\Project\obj\Debug\Project.dll
+G:\CIS3342\CIS3342Solution\Project\obj\Debug\Project.pdb
+C:\Users\Feed_\Desktop\Project\bin\Project.dll
+C:\Users\Feed_\Desktop\Project\bin\Project.pdb
+C:\Users\Feed_\Desktop\Project\obj\Debug\Project.dll
+C:\Users\Feed_\Desktop\Project\obj\Debug\Project.pdb
+C:\Users\Feed_\Desktop\Project\obj\Debug\Project1.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+G:\CIS3342\CIS3342Solution\Project\bin\Project.dll
+G:\CIS3342\CIS3342Solution\Project\bin\Project.pdb
+G:\CIS3342\CIS3342Solution\Project\obj\Release\Project.dll
+G:\CIS3342\CIS3342Solution\Project\obj\Release\Project.pdb
